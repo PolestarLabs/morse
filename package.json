@@ -1,0 +1,26 @@
+{
+  "name": "@polestar/morse",
+  "version": "0.1.0",
+  "description": "Morse code module",
+  "main": "index.js",
+  "types": "index.ts",
+  "scripts": {
+    "test": "npx tsc -p tsconfig.json --noEmit true",
+    "build": "npx tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolestarLabs/constants.git"
+  },
+  "author": "Bsian",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PolestarLabs/constants/issues"
+  },
+  "homepage": "https://github.com/PolestarLabs/constants#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "typescript": "^4.3.2"
+  }
+}
